@@ -6,6 +6,7 @@ from app import app
 from models import db, Bakery, BakedGood
 
 with app.app_context():
+    
 
     BakedGood.query.delete()
     Bakery.query.delete()
